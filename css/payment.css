@@ -1,0 +1,256 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+    height:100%;
+    width: 100%;
+}
+.container
+{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container  .row
+{
+    height: 90%;
+    width: 90%;
+    border: 1px solid    rgb(163, 160, 160);
+
+}
+
+.container  .row .col .head
+{
+    font-size: large;
+    font-weight: bold;
+}
+.container  .row .col label{
+    margin-top:10px;
+    font-weight: bold;
+}
+.container  .row .col   input
+{
+    height:50px;
+    width:80%;
+    padding-left:10px;
+    border-radius: 5px;
+    border: 1px solid    rgb(163, 160, 160);
+}
+
+#Zip-code1
+{
+   margin-left:150px; 
+}
+#State
+{
+    width:100px
+}
+#Zip-code
+{
+    width:100px;
+    margin-left:95px;
+    
+}
+.payment
+{
+    border: 1px solid   rgb(189, 185, 185);
+    background-color: #fff;
+}
+.payment   .upi
+{
+    border: 1px solid   rgb(189, 185, 185);
+
+}
+.payment   .upi ul
+{
+    list-style: none;
+    display: flex;
+}
+.payment   .upi ul li
+{
+margin-left: 30px;
+}
+.payment .card
+{
+    border: 1px solid   rgb(189, 185, 185);
+
+}
+.payment  .netbanking
+{
+    border: 1px solid   rgb(189, 185, 185);
+
+}
+.payment    .wallet
+{
+    border: 1px solid   rgb(189, 185, 185);
+
+}
+#Cvv1
+{
+    margin-left: 150px;
+    
+}
+#Exp-Year
+{
+    width: 100px;
+}
+#Cvv
+{
+    width: 100px;
+    margin-left: 130px;
+
+}
+#submit
+{
+    width: 90%;
+    height:50px;
+    color: white;
+    background-color:#4b2349;
+    margin-top: 5px;font-family: sans-serif;
+}
+ul  li  a
+{
+    color: black;
+}
+.netbanking p a{
+    color: black;
+
+}
+@media (max-width:450px)
+{
+    .container  .row .col label
+    {
+        font-size: 13px;
+    }
+    .container  .row .col   input
+    {
+        height:35px;
+        font-size:12px;
+        border-radius:3px;
+    }
+    .payment   .upi ul li
+    {
+        margin-left:10px;
+        font-size:12px;
+    }
+    .ucm
+    {
+        font-size:16px;
+        
+    }
+    .payment   .upi ul li img
+    {
+        height:30px;
+        width: 30px;
+        
+    }
+    .cm
+    {
+        height:30px;
+        width: 30px;
+        margin-right: 2px;
+        margin-left:5px;
+    }
+    .cp
+    {
+        font-size:12px;
+        color: black;
+    }
+    #Exp-Year
+    {
+        width:80px;
+    }
+    #Cvv
+    {
+        width:80px;
+    }
+    #submit
+    {
+        border-radius:5px;
+        border: none;
+    }
+
+}
+@media (max-width:400px)
+{
+    .container  .row .col label
+    {
+        font-size: 13px;
+    }
+    .container  .row .col   input
+    {
+        height:35px;
+        font-size:12px;
+        border-radius:3px;
+    }
+    .payment   .upi ul li
+    {
+        margin-left:10px;
+        font-size:12px;
+    }
+    .ucm
+    {
+        font-size:16px;
+        
+    }
+    .payment   .upi ul li img
+    {
+        height:30px;
+        width: 30px;
+        
+    }
+    .cm
+    {
+        height:30px;
+        width: 30px;
+        margin-right: 2px;
+        margin-left:5px;
+    }
+    .cp
+    {
+        font-size:12px;
+    }
+    #Exp-Year
+    {
+        width:42px;
+    }
+    #Cvv
+    {
+        width:42px;
+    }
+    #Cvv1
+    {
+        
+        margin-left: 100px;
+    }
+
+    #submit
+    {
+        border-radius:5px;
+        border: none;
+    }
+    #Zip-code1
+    {
+       margin-left:100px; 
+    }
+    #State
+    {
+        width:60px;
+        padding-left:3px;
+    }
+    #Zip-code
+    {
+        width:60px;
+        padding-left:3px;
+
+    }
+
+}
+

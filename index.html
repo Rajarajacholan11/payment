@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paymentpage</title>
+    <link rel="stylesheet" href="css/payment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- col1 -->
+            <div class="col">
+                <p  class="head">BILLING ADDRESS</p>
+                <FORM>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text"  id="fullname" placeholder="raj"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" placeholder="example@example.com"><br>
+                    <label for="Address">Address:</label><br>
+                    <input type="text"  id="Address" placeholder="Room-Street-Locality"><br>
+                    <label for="City">City:</label><br>
+                    <input type="text"  id="City"   placeholder="berlin"><br>
+                    <label for="State">State:</label>         <label for="Zip-code"id="Zip-code1" >Zip-code:</label><br>
+
+                    <input type="text"  id="State" placeholder="Germany"> <input type="number"    id="Zip-code"   placeholder="123456">
+                </FORM>
+            </div>
+            <!-- col2 -->
+            <div class="col">
+                <P  class="head">PAYMENT</P>
+                <P  class="ucm">UPI,Cards & More</P>
+                <div class="payment">
+                        <div class="upi">
+                            <p><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/bhim-upi.png" alt="bhim-upi"/></p>
+                            <ul>
+                                <li><img width="48" height="48" src="https://img.icons8.com/color/48/google-pay.png" alt="google-pay"/><a href="upi.html">Googlepay</a></li>
+                                <li><img width="48" height="48" src="https://img.icons8.com/color/48/phone-pe.png" alt="phone-pe"/><a href="upi.html">PhonePe</a></li>
+                                <li><img width="48" height="48" src="https://img.icons8.com/color/48/paytm.png" alt="paytm"/><a href="upi.html">PayTM</a></li>
+                                <li><img width="50" height="50" src="https://img.icons8.com/ios/50/money--v1.png" alt="money--v1"/>Others</li>
+                            </ul>
+                        </div>
+
+                        <div class="card">
+                            <p  class="cp"><img width="50" height="50" src="https://img.icons8.com/ios/50/000000/bank-card-back-side--v1.png" alt="bank-card-back-side--v1" class="cm"/>Card</p>
+                        </div>
+
+                        <div class="netbanking">
+                            <p class="cp"><img width="50" height="50" src="https://img.icons8.com/ios/50/broker.png" alt="broker"  class="cm"/><a href="netbanking.html">Netbanking</a></p>
+                        </div>
+
+                        <div class="wallet">
+                            <p class="cp" ><img width="50" height="50" src="https://img.icons8.com/ios/50/wallet--v1.png" alt="wallet--v1"  class="cm"/>Wallet</p>
+                        </div>
+            </div>
+
+                <form action="">
+                    <label for="Name On Card">Name On Card:</label><br>
+                    <input type="text"  id="Name On Card"  placeholder="Mr.Raj"><br>
+                    <label for="Credit Card Number ">Credit Card Number:</label><br>
+                    <input type="text"  id="Credit Card Number" placeholder="111 222 333 444"><br>
+                    <label for="Exp-Month">Exp-Month:</label><br>
+                    <input type="text" id="Exp-Month"   placeholder="Agust"><br>
+                    <label for="Exp-Year">Exp-Year:</label>    <label for="Cvv" id="Cvv1">Cvv:</label><br>
+                     <input type="text"  id="Exp-Year"   placeholder="2004">
+                    <input type="text"  id="Cvv"   placeholder="153">
+
+                    
+                </form>
+            </div>
+                        <!-- !-- col-2   end -->
+                    
+        </div>
+        <button id="submit">Submit</button>
+    </div>
+</body>
+</html>
